@@ -5,4 +5,6 @@ export interface iRestaurant {
   deliveryEstimate: string;
   rating: number;
   imagePath: string;
+  hours?: string;
+  about?: string;
 }
